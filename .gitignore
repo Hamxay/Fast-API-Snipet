@@ -1,0 +1,20 @@
+.venv
+__pycache__
+uploads
+.env
+backend/.env
+backend/uploads
+frontend/.env
+frontend/uploads
+
+# Docker
+data/
+
+# Environment variables
+.env
+
+# Uploads
+uploads/
+
+# Database
+*.db
