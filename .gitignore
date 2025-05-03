@@ -1,0 +1,23 @@
+.venv
+__pycache__
+uploads
+.env
+backend/.env
+backend/uploads
+frontend/.env
+frontend/uploads
+
+# Docker
+temp_auto_push.bat
+data/
+
+# Environment variables
+.env
+
+# Uploads
+uploads/
+
+# Database
+*.db
+.gitignore
+temp_interactive_push.bat
