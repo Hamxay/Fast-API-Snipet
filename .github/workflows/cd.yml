@@ -1,0 +1,11 @@
+name: Manual Trigger Example
+
+on:
+  workflow_dispatch: # This enables manual triggering
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello
+        run: echo "Hello from manually triggered workflow on staging branch!"
