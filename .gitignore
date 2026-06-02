@@ -8,7 +8,6 @@ frontend/.env
 frontend/uploads
 
 # Docker
-temp_auto_push.bat
 data/
 
 # Environment variables
@@ -20,4 +19,3 @@ uploads/
 # Database
 *.db
 .gitignore
-temp_interactive_push.bat
